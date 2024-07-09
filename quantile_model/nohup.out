@@ -1,0 +1,41 @@
+2022-09-12 22:08:31,658 - INFO - Log directory: data/model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_0912220831/
+2022-09-12 22:08:46,071 - INFO - Model created
+2022-09-12 22:08:46,073 - INFO - Start training ...
+2022-09-12 22:08:46,073 - INFO - num_batches:375
+epoch_num =  0
+2022-09-12 22:08:47,636 - INFO - Total trainable parameters 372483
+2022-09-12 22:13:51,298 - INFO - epoch complete
+2022-09-12 22:13:51,299 - INFO - evaluating now!
+train_time = 305.2256
+epoch_num =  1
+2022-09-12 22:18:58,233 - INFO - epoch complete
+2022-09-12 22:18:58,234 - INFO - evaluating now!
+train_time = 306.9353
+epoch_num =  2
+2022-09-12 22:24:17,581 - INFO - epoch complete
+2022-09-12 22:24:17,582 - INFO - evaluating now!
+train_time = 319.3479
+epoch_num =  3
+2022-09-12 22:29:28,374 - INFO - epoch complete
+2022-09-12 22:29:28,375 - INFO - evaluating now!
+train_time = 310.7929
+epoch_num =  4
+2022-09-12 22:34:33,432 - INFO - epoch complete
+2022-09-12 22:34:33,433 - INFO - evaluating now!
+train_time = 305.0581
+Traceback (most recent call last):
+  File "dcrnn_train_pytorch.py", line 30, in <module>
+    main(args)
+  File "dcrnn_train_pytorch.py", line 21, in main
+    supervisor.train()
+  File "/home/fzy/quantile_model/model/pytorch/dcrnn_supervisor.py", line 117, in train
+    return self._train(**kwargs)
+  File "/home/fzy/quantile_model/model/pytorch/dcrnn_supervisor.py", line 260, in _train
+    test_mis, test_width,test_mse,test_rmse,test_mae= self.evaluate(dataset='test', batches_seen=batches_seen)
+  File "/home/fzy/quantile_model/model/pytorch/dcrnn_supervisor.py", line 158, in evaluate
+    losses_mse.append(self.compute_mse(output ,y).item())
+  File "/home/fzy/quantile_model/model/pytorch/dcrnn_supervisor.py", line 332, in compute_mse
+    return masked_mse_loss(y_pred, y_true)
+  File "/home/fzy/quantile_model/model/pytorch/loss.py", line 27, in masked_mse_loss
+    loss = (y_pred  - y_true) ** 2
+RuntimeError: The size of tensor a (3) must match the size of tensor b (207) at non-singleton dimension 3

@@ -1,0 +1,545 @@
+2022-09-12 21:07:55,097 - INFO - Log directory: data/model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_0912210755/
+2022-09-12 21:08:08,824 - INFO - Model created
+2022-09-12 21:08:08,826 - INFO - Start training ...
+2022-09-12 21:08:08,826 - INFO - num_batches:375
+epoch_num =  0
+2022-09-12 21:08:10,345 - INFO - Total trainable parameters 437063
+2022-09-12 21:13:09,258 - INFO - epoch complete
+2022-09-12 21:13:09,259 - INFO - evaluating now!
+epoch_num =  1
+2022-09-12 21:18:06,356 - INFO - epoch complete
+2022-09-12 21:18:06,356 - INFO - evaluating now!
+epoch_num =  2
+2022-09-12 21:23:02,198 - INFO - epoch complete
+2022-09-12 21:23:02,198 - INFO - evaluating now!
+epoch_num =  3
+Traceback (most recent call last):
+  File "dcrnn_train_pytorch.py", line 30, in <module>
+    main(args)
+  File "dcrnn_train_pytorch.py", line 21, in main
+    supervisor.train()
+  File "/home/fzy/dcrnn_edl_model_MSE/model/pytorch/dcrnn_supervisor.py", line 119, in train
+    return self._train(**kwargs)
+  File "/home/fzy/dcrnn_edl_model_MSE/model/pytorch/dcrnn_supervisor.py", line 250, in _train
+    loss.backward()
+  File "/home/fzy/.conda/envs/fzy/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/fzy/.conda/envs/fzy/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+2022-09-12 21:49:33,802 - INFO - Log directory: data/model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_0912214933/
+2022-09-12 21:49:47,466 - INFO - Model created
+2022-09-12 21:49:47,468 - INFO - Start training ...
+2022-09-12 21:49:47,469 - INFO - num_batches:375
+epoch_num =  0
+2022-09-12 21:49:48,943 - INFO - Total trainable parameters 437063
+2022-09-12 21:54:48,163 - INFO - epoch complete
+2022-09-12 21:54:48,164 - INFO - evaluating now!
+train_time = 300.6956
+epoch_num =  1
+2022-09-12 21:59:46,386 - INFO - epoch complete
+2022-09-12 21:59:46,387 - INFO - evaluating now!
+train_time = 298.2224
+epoch_num =  2
+2022-09-12 22:04:42,917 - INFO - epoch complete
+2022-09-12 22:04:42,918 - INFO - evaluating now!
+train_time = 296.5308
+epoch_num =  3
+2022-09-12 22:09:41,223 - INFO - epoch complete
+2022-09-12 22:09:41,223 - INFO - evaluating now!
+train_time = 298.3054
+epoch_num =  4
+2022-09-12 22:14:44,561 - INFO - epoch complete
+2022-09-12 22:14:44,561 - INFO - evaluating now!
+train_time = 303.3378
+2022-09-12 22:23:04,482 - INFO - Epoch [4/55] (1875) test_mae:8.1928,test_mis: 12.5473, test_width: 10.5272, test_mse: 230.9246, test_rmse: 15.1962 , test_time499.9s
+epoch_num =  5
+2022-09-12 22:28:06,742 - INFO - epoch complete
+2022-09-12 22:28:06,742 - INFO - evaluating now!
+train_time = 302.2596
+epoch_num =  6
+2022-09-12 22:33:07,339 - INFO - epoch complete
+2022-09-12 22:33:07,340 - INFO - evaluating now!
+train_time = 300.5973
+epoch_num =  7
+2022-09-12 22:38:12,922 - INFO - epoch complete
+2022-09-12 22:38:12,923 - INFO - evaluating now!
+train_time = 305.5829
+epoch_num =  8
+2022-09-12 22:43:17,637 - INFO - epoch complete
+2022-09-12 22:43:17,638 - INFO - evaluating now!
+train_time = 304.7148
+epoch_num =  9
+2022-09-12 22:48:22,396 - INFO - epoch complete
+2022-09-12 22:48:22,397 - INFO - evaluating now!
+train_time = 304.7590
+2022-09-12 22:55:44,641 - INFO - Epoch [9/55] (3750) test_mae:8.6176,test_mis: 14.9733, test_width: 12.5626, test_mse: 239.0909, test_rmse: 15.4626 , test_time442.2s
+epoch_num =  10
+2022-09-12 23:00:50,903 - INFO - epoch complete
+2022-09-12 23:00:50,903 - INFO - evaluating now!
+train_time = 306.2618
+epoch_num =  11
+2022-09-12 23:05:56,278 - INFO - epoch complete
+2022-09-12 23:05:56,279 - INFO - evaluating now!
+train_time = 305.3755
+epoch_num =  12
+2022-09-12 23:11:01,426 - INFO - epoch complete
+2022-09-12 23:11:01,426 - INFO - evaluating now!
+train_time = 305.1475
+epoch_num =  13
+2022-09-12 23:16:06,676 - INFO - epoch complete
+2022-09-12 23:16:06,676 - INFO - evaluating now!
+train_time = 305.2501
+epoch_num =  14
+2022-09-12 23:21:12,412 - INFO - epoch complete
+2022-09-12 23:21:12,412 - INFO - evaluating now!
+train_time = 305.7356
+2022-09-12 23:28:33,820 - INFO - Epoch [14/55] (5625) test_mae:9.3075,test_mis: 14.4838, test_width: 12.1519, test_mse: 251.1233, test_rmse: 15.8469 , test_time441.4s
+epoch_num =  15
+2022-09-12 23:33:38,088 - INFO - epoch complete
+2022-09-12 23:33:38,088 - INFO - evaluating now!
+train_time = 304.2679
+epoch_num =  16
+2022-09-12 23:38:42,384 - INFO - epoch complete
+2022-09-12 23:38:42,385 - INFO - evaluating now!
+train_time = 304.2967
+epoch_num =  17
+2022-09-12 23:43:46,730 - INFO - epoch complete
+2022-09-12 23:43:46,731 - INFO - evaluating now!
+train_time = 304.3454
+epoch_num =  18
+2022-09-12 23:48:51,209 - INFO - epoch complete
+2022-09-12 23:48:51,209 - INFO - evaluating now!
+train_time = 304.4786
+epoch_num =  19
+2022-09-12 23:53:55,449 - INFO - epoch complete
+2022-09-12 23:53:55,449 - INFO - evaluating now!
+train_time = 304.2397
+2022-09-13 00:01:15,891 - INFO - Epoch [19/55] (7500) test_mae:9.5727,test_mis: 16.0854, test_width: 13.4956, test_mse: 246.1139, test_rmse: 15.6880 , test_time440.4s
+epoch_num =  20
+2022-09-13 00:06:20,208 - INFO - epoch complete
+2022-09-13 00:06:20,209 - INFO - evaluating now!
+train_time = 304.3173
+epoch_num =  21
+2022-09-13 00:11:24,627 - INFO - epoch complete
+2022-09-13 00:11:24,627 - INFO - evaluating now!
+train_time = 304.4187
+epoch_num =  22
+2022-09-13 00:16:29,968 - INFO - epoch complete
+2022-09-13 00:16:29,969 - INFO - evaluating now!
+train_time = 305.3410
+epoch_num =  23
+2022-09-13 00:21:34,682 - INFO - epoch complete
+2022-09-13 00:21:34,683 - INFO - evaluating now!
+train_time = 304.7142
+epoch_num =  24
+2022-09-13 00:26:39,409 - INFO - epoch complete
+2022-09-13 00:26:39,410 - INFO - evaluating now!
+train_time = 304.7269
+2022-09-13 00:33:58,299 - INFO - Epoch [24/55] (9375) test_mae:8.4182,test_mis: 16.8758, test_width: 14.1588, test_mse: 227.0955, test_rmse: 15.0697 , test_time438.9s
+epoch_num =  25
+2022-09-13 00:39:02,505 - INFO - epoch complete
+2022-09-13 00:39:02,505 - INFO - evaluating now!
+train_time = 304.2056
+epoch_num =  26
+2022-09-13 00:44:09,341 - INFO - epoch complete
+2022-09-13 00:44:09,342 - INFO - evaluating now!
+train_time = 306.8363
+epoch_num =  27
+2022-09-13 00:49:15,409 - INFO - epoch complete
+2022-09-13 00:49:15,410 - INFO - evaluating now!
+train_time = 306.0680
+epoch_num =  28
+2022-09-13 00:54:19,589 - INFO - epoch complete
+2022-09-13 00:54:19,589 - INFO - evaluating now!
+train_time = 304.1794
+epoch_num =  29
+2022-09-13 00:59:23,843 - INFO - epoch complete
+2022-09-13 00:59:23,844 - INFO - evaluating now!
+train_time = 304.2541
+2022-09-13 01:06:43,498 - INFO - Epoch [29/55] (11250) test_mae:7.2244,test_mis: 16.4531, test_width: 13.8041, test_mse: 184.1889, test_rmse: 13.5716 , test_time439.7s
+epoch_num =  30
+2022-09-13 01:11:48,469 - INFO - epoch complete
+2022-09-13 01:11:48,470 - INFO - evaluating now!
+train_time = 304.9717
+epoch_num =  31
+2022-09-13 01:16:53,474 - INFO - epoch complete
+2022-09-13 01:16:53,475 - INFO - evaluating now!
+train_time = 305.0051
+epoch_num =  32
+2022-09-13 01:21:58,930 - INFO - epoch complete
+2022-09-13 01:21:58,931 - INFO - evaluating now!
+train_time = 305.4550
+epoch_num =  33
+2022-09-13 01:27:05,880 - INFO - epoch complete
+2022-09-13 01:27:05,881 - INFO - evaluating now!
+train_time = 306.9501
+epoch_num =  34
+2022-09-13 01:32:10,742 - INFO - epoch complete
+2022-09-13 01:32:10,743 - INFO - evaluating now!
+train_time = 304.8620
+2022-09-13 01:39:53,099 - INFO - Epoch [34/55] (13125) test_mae:7.2500,test_mis: 19.3102, test_width: 16.2012, test_mse: 177.7998, test_rmse: 13.3342 , test_time462.4s
+epoch_num =  35
+2022-09-13 01:44:58,330 - INFO - epoch complete
+2022-09-13 01:44:58,331 - INFO - evaluating now!
+train_time = 305.2311
+epoch_num =  36
+2022-09-13 01:50:03,401 - INFO - epoch complete
+2022-09-13 01:50:03,402 - INFO - evaluating now!
+train_time = 305.0708
+epoch_num =  37
+2022-09-13 01:55:08,689 - INFO - epoch complete
+2022-09-13 01:55:08,689 - INFO - evaluating now!
+train_time = 305.2868
+epoch_num =  38
+2022-09-13 02:00:14,390 - INFO - epoch complete
+2022-09-13 02:00:14,391 - INFO - evaluating now!
+train_time = 305.7016
+epoch_num =  39
+2022-09-13 02:05:19,954 - INFO - epoch complete
+2022-09-13 02:05:19,955 - INFO - evaluating now!
+train_time = 305.5643
+2022-09-13 02:12:46,332 - INFO - Epoch [39/55] (15000) test_mae:7.0811,test_mis: 20.6256, test_width: 17.3047, test_mse: 156.8535, test_rmse: 12.5241 , test_time446.4s
+epoch_num =  40
+2022-09-13 02:17:51,048 - INFO - epoch complete
+2022-09-13 02:17:51,048 - INFO - evaluating now!
+train_time = 304.7155
+epoch_num =  41
+2022-09-13 02:22:56,627 - INFO - epoch complete
+2022-09-13 02:22:56,627 - INFO - evaluating now!
+train_time = 305.5790
+epoch_num =  42
+2022-09-13 02:28:02,640 - INFO - epoch complete
+2022-09-13 02:28:02,641 - INFO - evaluating now!
+train_time = 306.0135
+epoch_num =  43
+2022-09-13 02:33:06,999 - INFO - epoch complete
+2022-09-13 02:33:07,000 - INFO - evaluating now!
+train_time = 304.3590
+epoch_num =  44
+2022-09-13 02:38:11,350 - INFO - epoch complete
+2022-09-13 02:38:11,350 - INFO - evaluating now!
+train_time = 304.3500
+2022-09-13 02:45:32,362 - INFO - Epoch [44/55] (16875) test_mae:6.6538,test_mis: 20.8614, test_width: 17.5026, test_mse: 149.7511, test_rmse: 12.2373 , test_time441.0s
+epoch_num =  45
+2022-09-13 02:50:36,778 - INFO - epoch complete
+2022-09-13 02:50:36,778 - INFO - evaluating now!
+train_time = 304.4154
+epoch_num =  46
+2022-09-13 02:55:41,328 - INFO - epoch complete
+2022-09-13 02:55:41,329 - INFO - evaluating now!
+train_time = 304.5504
+epoch_num =  47
+2022-09-13 03:00:45,814 - INFO - epoch complete
+2022-09-13 03:00:45,815 - INFO - evaluating now!
+train_time = 304.4867
+epoch_num =  48
+2022-09-13 03:05:50,397 - INFO - epoch complete
+2022-09-13 03:05:50,398 - INFO - evaluating now!
+train_time = 304.5827
+epoch_num =  49
+2022-09-13 03:10:54,943 - INFO - epoch complete
+2022-09-13 03:10:54,944 - INFO - evaluating now!
+train_time = 304.5452
+2022-09-13 03:18:15,861 - INFO - Epoch [49/55] (18750) test_mae:7.3043,test_mis: 21.1513, test_width: 17.7459, test_mse: 157.9795, test_rmse: 12.5690 , test_time440.9s
+epoch_num =  50
+2022-09-13 03:23:20,899 - INFO - epoch complete
+2022-09-13 03:23:20,900 - INFO - evaluating now!
+train_time = 305.0381
+epoch_num =  51
+2022-09-13 03:28:26,038 - INFO - epoch complete
+2022-09-13 03:28:26,038 - INFO - evaluating now!
+train_time = 305.1381
+epoch_num =  52
+2022-09-13 03:33:30,783 - INFO - epoch complete
+2022-09-13 03:33:30,784 - INFO - evaluating now!
+train_time = 304.7454
+epoch_num =  53
+2022-09-13 03:38:36,418 - INFO - epoch complete
+2022-09-13 03:38:36,419 - INFO - evaluating now!
+train_time = 305.6348
+epoch_num =  54
+2022-09-13 03:43:41,103 - INFO - epoch complete
+2022-09-13 03:43:41,103 - INFO - evaluating now!
+train_time = 304.6847
+2022-09-13 03:50:59,739 - INFO - Epoch [54/55] (20625) test_mae:6.9179,test_mis: 21.8297, test_width: 18.3150, test_mse: 142.3590, test_rmse: 11.9314 , test_time438.6s
+2022-11-12 11:48:52,412 - INFO - Log directory: data/model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_1112114852/
+2022-11-12 11:49:06,259 - INFO - Model created
+2022-11-12 11:49:06,260 - INFO - Start training ...
+2022-11-12 11:49:06,260 - INFO - num_batches:375
+epoch_num =  0
+2022-11-12 11:49:08,079 - INFO - Total trainable parameters 437063
+2022-11-12 11:54:07,166 - INFO - epoch complete
+2022-11-12 11:54:07,166 - INFO - evaluating now!
+train_time = 300.9063
+2022-11-12 11:54:51,122 - INFO - Epoch [0/55] (375) test_mae:11.1865,test_mis: 331.8705, test_width: 13.9776, test_mse: 298.9450, test_rmse: 17.2900 , test_time44.0s
+epoch_num =  1
+2022-11-12 11:59:53,192 - INFO - epoch complete
+2022-11-12 11:59:53,193 - INFO - evaluating now!
+train_time = 302.0703
+2022-11-12 12:00:36,781 - INFO - Epoch [1/55] (750) test_mae:11.8850,test_mis: 403.5560, test_width: 14.2571, test_mse: 330.9043, test_rmse: 18.1908 , test_time43.6s
+epoch_num =  2
+2022-11-12 12:05:38,889 - INFO - epoch complete
+2022-11-12 12:05:38,890 - INFO - evaluating now!
+train_time = 302.1085
+2022-11-12 12:06:22,755 - INFO - Epoch [2/55] (1125) test_mae:10.1968,test_mis: 151.8999, test_width: 26.0015, test_mse: 334.1271, test_rmse: 18.2791 , test_time43.9s
+epoch_num =  3
+2022-11-12 12:11:26,424 - INFO - epoch complete
+2022-11-12 12:11:26,425 - INFO - evaluating now!
+train_time = 303.6696
+2022-11-12 12:12:10,904 - INFO - Epoch [3/55] (1500) test_mae:12.0312,test_mis: 364.6530, test_width: 23.0055, test_mse: 328.0510, test_rmse: 18.1122 , test_time44.5s
+epoch_num =  4
+2022-11-12 12:17:14,300 - INFO - epoch complete
+2022-11-12 12:17:14,301 - INFO - evaluating now!
+train_time = 303.3966
+2022-11-12 12:17:59,314 - INFO - Epoch [4/55] (1875) test_mae:20.9029,test_mis: 173.6211, test_width: 60.1316, test_mse: 692.6723, test_rmse: 26.3187 , test_time45.0s
+epoch_num =  5
+2022-11-12 12:23:02,303 - INFO - epoch complete
+2022-11-12 12:23:02,303 - INFO - evaluating now!
+train_time = 302.9889
+2022-11-12 12:23:45,949 - INFO - Epoch [5/55] (2250) test_mae:11.5283,test_mis: 244.3014, test_width: 20.3772, test_mse: 325.5504, test_rmse: 18.0430 , test_time43.6s
+epoch_num =  6
+2022-11-12 12:28:48,815 - INFO - epoch complete
+2022-11-12 12:28:48,815 - INFO - evaluating now!
+train_time = 302.8664
+2022-11-12 12:29:32,701 - INFO - Epoch [6/55] (2625) test_mae:7.6768,test_mis: 152.1220, test_width: 19.3975, test_mse: 190.9842, test_rmse: 13.8197 , test_time43.9s
+epoch_num =  7
+2022-11-12 12:34:36,011 - INFO - epoch complete
+2022-11-12 12:34:36,011 - INFO - evaluating now!
+train_time = 303.3095
+2022-11-12 12:35:19,693 - INFO - Epoch [7/55] (3000) test_mae:8.9588,test_mis: 154.2126, test_width: 23.6480, test_mse: 244.8197, test_rmse: 15.6467 , test_time43.7s
+epoch_num =  8
+2022-11-12 12:40:22,320 - INFO - epoch complete
+2022-11-12 12:40:22,320 - INFO - evaluating now!
+train_time = 302.6272
+2022-11-12 12:41:06,165 - INFO - Epoch [8/55] (3375) test_mae:9.0410,test_mis: 193.9530, test_width: 18.4243, test_mse: 253.5189, test_rmse: 15.9223 , test_time43.8s
+epoch_num =  9
+2022-11-12 12:46:10,170 - INFO - epoch complete
+2022-11-12 12:46:10,171 - INFO - evaluating now!
+train_time = 304.0055
+2022-11-12 12:46:54,012 - INFO - Epoch [9/55] (3750) test_mae:6.8322,test_mis: 104.3989, test_width: 30.9296, test_mse: 177.6117, test_rmse: 13.3271 , test_time43.8s
+epoch_num =  10
+2022-11-12 12:51:59,155 - INFO - epoch complete
+2022-11-12 12:51:59,156 - INFO - evaluating now!
+train_time = 305.1432
+2022-11-12 12:52:43,391 - INFO - Epoch [10/55] (4125) test_mae:9.1263,test_mis: 166.7952, test_width: 20.7428, test_mse: 239.2970, test_rmse: 15.4692 , test_time44.2s
+epoch_num =  11
+2022-11-12 12:57:47,706 - INFO - epoch complete
+2022-11-12 12:57:47,707 - INFO - evaluating now!
+train_time = 304.3159
+2022-11-12 12:58:33,013 - INFO - Epoch [11/55] (4500) test_mae:7.5880,test_mis: 142.6952, test_width: 25.9212, test_mse: 182.7326, test_rmse: 13.5179 , test_time45.3s
+epoch_num =  12
+2022-11-12 13:03:37,722 - INFO - epoch complete
+2022-11-12 13:03:37,722 - INFO - evaluating now!
+train_time = 304.7094
+2022-11-12 13:04:22,061 - INFO - Epoch [12/55] (4875) test_mae:9.0426,test_mis: 200.6909, test_width: 18.3310, test_mse: 259.6293, test_rmse: 16.1130 , test_time44.3s
+epoch_num =  13
+2022-11-12 13:09:26,482 - INFO - epoch complete
+2022-11-12 13:09:26,482 - INFO - evaluating now!
+train_time = 304.4206
+2022-11-12 13:10:10,459 - INFO - Epoch [13/55] (5250) test_mae:10.9217,test_mis: 170.5279, test_width: 30.7228, test_mse: 404.9390, test_rmse: 20.1231 , test_time44.0s
+epoch_num =  14
+2022-11-12 13:15:15,507 - INFO - epoch complete
+2022-11-12 13:15:15,507 - INFO - evaluating now!
+train_time = 305.0482
+2022-11-12 13:16:00,180 - INFO - Epoch [14/55] (5625) test_mae:10.1324,test_mis: 128.4295, test_width: 35.0492, test_mse: 338.6714, test_rmse: 18.4030 , test_time44.7s
+epoch_num =  15
+2022-11-12 13:21:03,923 - INFO - epoch complete
+2022-11-12 13:21:03,924 - INFO - evaluating now!
+train_time = 303.7440
+2022-11-12 13:21:48,100 - INFO - Epoch [15/55] (6000) test_mae:7.5388,test_mis: 159.1639, test_width: 23.1858, test_mse: 209.3443, test_rmse: 14.4687 , test_time44.2s
+epoch_num =  16
+2022-11-12 13:26:53,819 - INFO - epoch complete
+2022-11-12 13:26:53,820 - INFO - evaluating now!
+train_time = 305.7191
+2022-11-12 13:27:38,441 - INFO - Epoch [16/55] (6375) test_mae:6.4200,test_mis: 117.2984, test_width: 21.5091, test_mse: 164.2256, test_rmse: 12.8151 , test_time44.6s
+epoch_num =  17
+2022-11-12 13:32:41,875 - INFO - epoch complete
+2022-11-12 13:32:41,875 - INFO - evaluating now!
+train_time = 303.4341
+2022-11-12 13:33:26,355 - INFO - Epoch [17/55] (6750) test_mae:6.0369,test_mis: 118.6239, test_width: 18.4737, test_mse: 145.8980, test_rmse: 12.0788 , test_time44.5s
+epoch_num =  18
+2022-11-12 13:38:31,101 - INFO - epoch complete
+2022-11-12 13:38:31,102 - INFO - evaluating now!
+train_time = 304.7466
+2022-11-12 13:39:16,262 - INFO - Epoch [18/55] (7125) test_mae:5.7437,test_mis: 106.6390, test_width: 23.7236, test_mse: 152.3865, test_rmse: 12.3445 , test_time45.2s
+epoch_num =  19
+2022-11-12 13:44:19,945 - INFO - epoch complete
+2022-11-12 13:44:19,946 - INFO - evaluating now!
+train_time = 303.6830
+2022-11-12 13:45:04,489 - INFO - Epoch [19/55] (7500) test_mae:6.4921,test_mis: 120.0281, test_width: 33.9782, test_mse: 167.5238, test_rmse: 12.9431 , test_time44.5s
+epoch_num =  20
+2022-11-12 13:50:09,651 - INFO - epoch complete
+2022-11-12 13:50:09,651 - INFO - evaluating now!
+train_time = 305.1627
+2022-11-12 13:50:53,790 - INFO - Epoch [20/55] (7875) test_mae:5.7836,test_mis: 108.3864, test_width: 21.2064, test_mse: 143.2772, test_rmse: 11.9698 , test_time44.1s
+epoch_num =  21
+2022-11-12 13:55:58,399 - INFO - epoch complete
+2022-11-12 13:55:58,399 - INFO - evaluating now!
+train_time = 304.6087
+2022-11-12 13:56:42,831 - INFO - Epoch [21/55] (8250) test_mae:5.2885,test_mis: 94.5004, test_width: 25.0910, test_mse: 135.5192, test_rmse: 11.6413 , test_time44.4s
+epoch_num =  22
+2022-11-12 14:01:47,985 - INFO - epoch complete
+2022-11-12 14:01:47,985 - INFO - evaluating now!
+train_time = 305.1545
+2022-11-12 14:02:31,982 - INFO - Epoch [22/55] (8625) test_mae:5.9306,test_mis: 99.4079, test_width: 28.3900, test_mse: 164.0466, test_rmse: 12.8081 , test_time44.0s
+epoch_num =  23
+2022-11-12 14:07:36,133 - INFO - epoch complete
+2022-11-12 14:07:36,134 - INFO - evaluating now!
+train_time = 304.1516
+2022-11-12 14:08:20,831 - INFO - Epoch [23/55] (9000) test_mae:6.1408,test_mis: 105.1406, test_width: 26.5231, test_mse: 173.2881, test_rmse: 13.1639 , test_time44.7s
+epoch_num =  24
+2022-11-12 14:13:24,163 - INFO - epoch complete
+2022-11-12 14:13:24,164 - INFO - evaluating now!
+train_time = 303.3332
+2022-11-12 14:14:07,973 - INFO - Epoch [24/55] (9375) test_mae:5.4162,test_mis: 103.5450, test_width: 26.3066, test_mse: 143.1002, test_rmse: 11.9624 , test_time43.8s
+epoch_num =  25
+2022-11-12 14:19:12,641 - INFO - epoch complete
+2022-11-12 14:19:12,641 - INFO - evaluating now!
+train_time = 304.6677
+2022-11-12 14:19:57,709 - INFO - Epoch [25/55] (9750) test_mae:5.0954,test_mis: 95.0227, test_width: 25.7336, test_mse: 133.9116, test_rmse: 11.5720 , test_time45.1s
+epoch_num =  26
+2022-11-12 14:25:02,919 - INFO - epoch complete
+2022-11-12 14:25:02,919 - INFO - evaluating now!
+train_time = 305.2096
+2022-11-12 14:25:48,890 - INFO - Epoch [26/55] (10125) test_mae:5.2213,test_mis: 97.7676, test_width: 26.2406, test_mse: 138.4135, test_rmse: 11.7649 , test_time46.0s
+epoch_num =  27
+2022-11-12 14:30:54,053 - INFO - epoch complete
+2022-11-12 14:30:54,053 - INFO - evaluating now!
+train_time = 305.1627
+2022-11-12 14:31:40,470 - INFO - Epoch [27/55] (10500) test_mae:5.6832,test_mis: 106.8082, test_width: 25.8552, test_mse: 165.8802, test_rmse: 12.8794 , test_time46.4s
+epoch_num =  28
+2022-11-12 14:36:44,486 - INFO - epoch complete
+2022-11-12 14:36:44,486 - INFO - evaluating now!
+train_time = 304.0163
+2022-11-12 14:37:28,501 - INFO - Epoch [28/55] (10875) test_mae:5.1415,test_mis: 92.9317, test_width: 33.7003, test_mse: 133.7089, test_rmse: 11.5633 , test_time44.0s
+epoch_num =  29
+2022-11-12 14:42:33,871 - INFO - epoch complete
+2022-11-12 14:42:33,871 - INFO - evaluating now!
+train_time = 305.3702
+2022-11-12 14:43:18,341 - INFO - Epoch [29/55] (11250) test_mae:4.7955,test_mis: 93.4674, test_width: 23.3217, test_mse: 129.1093, test_rmse: 11.3626 , test_time44.5s
+epoch_num =  30
+2022-11-12 14:48:23,958 - INFO - epoch complete
+2022-11-12 14:48:23,958 - INFO - evaluating now!
+train_time = 305.6165
+2022-11-12 14:49:07,797 - INFO - Epoch [30/55] (11625) test_mae:5.0610,test_mis: 92.6817, test_width: 30.9331, test_mse: 140.4306, test_rmse: 11.8503 , test_time43.8s
+epoch_num =  31
+2022-11-12 14:54:12,807 - INFO - epoch complete
+2022-11-12 14:54:12,808 - INFO - evaluating now!
+train_time = 305.0105
+2022-11-12 14:54:58,774 - INFO - Epoch [31/55] (12000) test_mae:4.8364,test_mis: 87.8125, test_width: 32.7937, test_mse: 136.4366, test_rmse: 11.6806 , test_time46.0s
+epoch_num =  32
+2022-11-12 15:00:02,659 - INFO - epoch complete
+2022-11-12 15:00:02,660 - INFO - evaluating now!
+train_time = 303.8859
+2022-11-12 15:00:46,824 - INFO - Epoch [32/55] (12375) test_mae:4.7097,test_mis: 88.1302, test_width: 36.5009, test_mse: 127.6275, test_rmse: 11.2972 , test_time44.2s
+epoch_num =  33
+2022-11-12 15:05:51,148 - INFO - epoch complete
+2022-11-12 15:05:51,149 - INFO - evaluating now!
+train_time = 304.3242
+2022-11-12 15:06:35,854 - INFO - Epoch [33/55] (12750) test_mae:4.6175,test_mis: 85.2196, test_width: 27.3280, test_mse: 125.9268, test_rmse: 11.2217 , test_time44.7s
+epoch_num =  34
+2022-11-12 15:11:39,252 - INFO - epoch complete
+2022-11-12 15:11:39,252 - INFO - evaluating now!
+train_time = 303.3982
+2022-11-12 15:12:23,415 - INFO - Epoch [34/55] (13125) test_mae:4.5867,test_mis: 100.2310, test_width: 62.6536, test_mse: 128.9481, test_rmse: 11.3555 , test_time44.2s
+epoch_num =  35
+2022-11-12 15:17:27,007 - INFO - epoch complete
+2022-11-12 15:17:27,008 - INFO - evaluating now!
+train_time = 303.5928
+2022-11-12 15:18:11,871 - INFO - Epoch [35/55] (13500) test_mae:4.5085,test_mis: 84.1179, test_width: 43.7021, test_mse: 124.9953, test_rmse: 11.1801 , test_time44.9s
+epoch_num =  36
+2022-11-12 15:23:14,057 - INFO - epoch complete
+2022-11-12 15:23:14,058 - INFO - evaluating now!
+train_time = 302.1865
+2022-11-12 15:23:57,528 - INFO - Epoch [36/55] (13875) test_mae:4.4404,test_mis: 80.1032, test_width: 38.9991, test_mse: 123.5111, test_rmse: 11.1136 , test_time43.5s
+epoch_num =  37
+2022-11-12 15:29:00,014 - INFO - epoch complete
+2022-11-12 15:29:00,014 - INFO - evaluating now!
+train_time = 302.4856
+2022-11-12 15:29:43,489 - INFO - Epoch [37/55] (14250) test_mae:4.7465,test_mis: 81.9062, test_width: 44.3695, test_mse: 135.2921, test_rmse: 11.6315 , test_time43.5s
+epoch_num =  38
+2022-11-12 15:34:45,889 - INFO - epoch complete
+2022-11-12 15:34:45,890 - INFO - evaluating now!
+train_time = 302.4006
+2022-11-12 15:35:29,346 - INFO - Epoch [38/55] (14625) test_mae:4.4626,test_mis: 90.9134, test_width: 52.8705, test_mse: 122.3956, test_rmse: 11.0633 , test_time43.5s
+epoch_num =  39
+2022-11-12 15:40:32,549 - INFO - epoch complete
+2022-11-12 15:40:32,549 - INFO - evaluating now!
+train_time = 303.2029
+2022-11-12 15:41:16,070 - INFO - Epoch [39/55] (15000) test_mae:4.4900,test_mis: 86.8376, test_width: 52.6896, test_mse: 125.0368, test_rmse: 11.1820 , test_time43.5s
+epoch_num =  40
+2022-11-12 15:46:18,539 - INFO - epoch complete
+2022-11-12 15:46:18,539 - INFO - evaluating now!
+train_time = 302.4690
+2022-11-12 15:47:02,057 - INFO - Epoch [40/55] (15375) test_mae:4.3784,test_mis: 79.8921, test_width: 46.8733, test_mse: 120.7257, test_rmse: 10.9875 , test_time43.5s
+epoch_num =  41
+2022-11-12 15:52:05,094 - INFO - epoch complete
+2022-11-12 15:52:05,094 - INFO - evaluating now!
+train_time = 303.0376
+2022-11-12 15:52:48,062 - INFO - Epoch [41/55] (15750) test_mae:4.5332,test_mis: 87.7451, test_width: 56.0358, test_mse: 127.5569, test_rmse: 11.2941 , test_time43.0s
+epoch_num =  42
+2022-11-12 15:57:47,639 - INFO - epoch complete
+2022-11-12 15:57:47,640 - INFO - evaluating now!
+train_time = 299.5775
+2022-11-12 15:58:30,808 - INFO - Epoch [42/55] (16125) test_mae:4.2905,test_mis: 84.0096, test_width: 54.0790, test_mse: 116.4559, test_rmse: 10.7915 , test_time43.2s
+epoch_num =  43
+2022-11-12 16:03:33,127 - INFO - epoch complete
+2022-11-12 16:03:33,128 - INFO - evaluating now!
+train_time = 302.3192
+2022-11-12 16:04:18,340 - INFO - Epoch [43/55] (16500) test_mae:4.4012,test_mis: 93.8284, test_width: 67.5347, test_mse: 118.0339, test_rmse: 10.8643 , test_time45.2s
+epoch_num =  44
+2022-11-12 16:09:25,104 - INFO - epoch complete
+2022-11-12 16:09:25,104 - INFO - evaluating now!
+train_time = 306.7632
+2022-11-12 16:10:10,282 - INFO - Epoch [44/55] (16875) test_mae:4.4153,test_mis: 93.5283, test_width: 67.3912, test_mse: 120.5259, test_rmse: 10.9784 , test_time45.2s
+epoch_num =  45
+2022-11-12 16:15:16,642 - INFO - epoch complete
+2022-11-12 16:15:16,643 - INFO - evaluating now!
+train_time = 306.3607
+2022-11-12 16:15:59,751 - INFO - Epoch [45/55] (17250) test_mae:4.4686,test_mis: 115.3569, test_width: 88.0398, test_mse: 125.1875, test_rmse: 11.1887 , test_time43.1s
+epoch_num =  46
+2022-11-12 16:20:57,174 - INFO - epoch complete
+2022-11-12 16:20:57,174 - INFO - evaluating now!
+train_time = 297.4235
+2022-11-12 16:21:39,978 - INFO - Epoch [46/55] (17625) test_mae:4.2762,test_mis: 108.8700, test_width: 83.3930, test_mse: 113.6763, test_rmse: 10.6619 , test_time42.8s
+epoch_num =  47
+2022-11-12 16:26:37,223 - INFO - epoch complete
+2022-11-12 16:26:37,223 - INFO - evaluating now!
+train_time = 297.2453
+2022-11-12 16:27:20,036 - INFO - Epoch [47/55] (18000) test_mae:4.3038,test_mis: 143.2408, test_width: 117.7649, test_mse: 113.2243, test_rmse: 10.6407 , test_time42.8s
+epoch_num =  48
+2022-11-12 16:32:17,471 - INFO - epoch complete
+2022-11-12 16:32:17,472 - INFO - evaluating now!
+train_time = 297.4357
+2022-11-12 16:33:00,273 - INFO - Epoch [48/55] (18375) test_mae:4.4612,test_mis: 104.5385, test_width: 80.8580, test_mse: 118.8164, test_rmse: 10.9003 , test_time42.8s
+epoch_num =  49
+2022-11-12 16:37:57,579 - INFO - epoch complete
+2022-11-12 16:37:57,579 - INFO - evaluating now!
+train_time = 297.3064
+2022-11-12 16:38:40,390 - INFO - Epoch [49/55] (18750) test_mae:4.3123,test_mis: 110.9596, test_width: 87.1627, test_mse: 116.9524, test_rmse: 10.8145 , test_time42.8s
+epoch_num =  50
+2022-11-12 16:43:37,802 - INFO - epoch complete
+2022-11-12 16:43:37,803 - INFO - evaluating now!
+train_time = 297.4126
+2022-11-12 16:44:20,602 - INFO - Epoch [50/55] (19125) test_mae:4.2277,test_mis: 124.2420, test_width: 99.7381, test_mse: 111.4629, test_rmse: 10.5576 , test_time42.8s
+epoch_num =  51
+2022-11-12 16:49:18,050 - INFO - epoch complete
+2022-11-12 16:49:18,051 - INFO - evaluating now!
+train_time = 297.4481
+2022-11-12 16:50:00,867 - INFO - Epoch [51/55] (19500) test_mae:4.2228,test_mis: 133.5395, test_width: 109.3566, test_mse: 110.2723, test_rmse: 10.5011 , test_time42.8s
+epoch_num =  52
+2022-11-12 16:54:58,124 - INFO - epoch complete
+2022-11-12 16:54:58,125 - INFO - evaluating now!
+train_time = 297.2578
+2022-11-12 16:55:40,925 - INFO - Epoch [52/55] (19875) test_mae:4.1979,test_mis: 97.8105, test_width: 73.5201, test_mse: 112.5791, test_rmse: 10.6103 , test_time42.8s
+epoch_num =  53
+2022-11-12 17:00:38,149 - INFO - epoch complete
+2022-11-12 17:00:38,150 - INFO - evaluating now!
+train_time = 297.2242
+2022-11-12 17:01:20,964 - INFO - Epoch [53/55] (20250) test_mae:4.2226,test_mis: 154.5469, test_width: 131.1619, test_mse: 112.2466, test_rmse: 10.5947 , test_time42.8s
+epoch_num =  54
+2022-11-12 17:06:18,181 - INFO - epoch complete
+2022-11-12 17:06:18,182 - INFO - evaluating now!
+train_time = 297.2177
+2022-11-12 17:07:00,985 - INFO - Epoch [54/55] (20625) test_mae:4.2738,test_mis: 158.8371, test_width: 136.8380, test_mse: 111.6107, test_rmse: 10.5646 , test_time42.8s

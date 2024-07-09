@@ -1,0 +1,55 @@
+2022-10-29 22:13:21,638 - INFO - Log directory: data/model/dcrnn_DR_2_h_12_64-64_lr_0.01_bs_64_1029221321/
+2022-10-29 22:13:37,678 - INFO - Model created
+2022-10-29 22:13:37,679 - INFO - Start training ...
+2022-10-29 22:13:37,679 - INFO - num_batches:375
+2022-10-29 22:13:39,427 - INFO - Loaded model at 10
+2022-10-29 22:14:21,850 - INFO - Loaded model at 11
+2022-10-29 22:15:04,369 - INFO - Loaded model at 12
+2022-10-29 22:15:47,069 - INFO - Loaded model at 13
+2022-10-29 22:16:29,782 - INFO - Loaded model at 14
+2022-10-29 22:17:12,704 - INFO - Loaded model at 15
+2022-10-29 22:17:55,622 - INFO - Loaded model at 16
+2022-10-29 22:18:38,724 - INFO - Loaded model at 17
+2022-10-29 22:19:21,845 - INFO - Loaded model at 18
+2022-10-29 22:20:05,030 - INFO - Loaded model at 19
+2022-10-29 22:20:48,382 - INFO - Loaded model at 20
+2022-10-29 22:21:31,829 - INFO - Loaded model at 21
+2022-10-29 22:22:15,341 - INFO - Loaded model at 22
+2022-10-29 22:22:58,892 - INFO - Loaded model at 23
+2022-10-29 22:23:42,479 - INFO - Loaded model at 24
+2022-10-29 22:24:26,091 - INFO - Loaded model at 25
+2022-10-29 22:25:09,711 - INFO - Loaded model at 26
+2022-10-29 22:25:55,484 - INFO - Loaded model at 27
+2022-10-29 22:26:41,333 - INFO - Loaded model at 28
+2022-10-29 22:27:27,190 - INFO - Loaded model at 29
+2022-10-29 22:28:13,726 - INFO - Loaded model at 30
+2022-10-29 22:28:59,595 - INFO - Loaded model at 31
+2022-10-29 22:29:45,455 - INFO - Loaded model at 32
+2022-10-29 22:30:31,290 - INFO - Loaded model at 33
+2022-10-29 22:31:16,222 - INFO - Loaded model at 34
+2022-10-29 22:32:00,731 - INFO - Loaded model at 35
+2022-10-29 22:32:46,658 - INFO - Loaded model at 36
+2022-10-29 22:33:30,544 - INFO - Loaded model at 37
+2022-10-29 22:34:14,264 - INFO - Loaded model at 38
+2022-10-29 22:34:58,000 - INFO - Loaded model at 39
+2022-10-29 22:35:41,719 - INFO - Loaded model at 40
+2022-10-29 22:36:25,457 - INFO - Loaded model at 41
+2022-10-29 22:37:09,190 - INFO - Loaded model at 42
+2022-10-29 22:37:52,906 - INFO - Loaded model at 43
+2022-10-29 22:38:36,633 - INFO - Loaded model at 44
+2022-10-29 22:39:20,366 - INFO - Loaded model at 45
+2022-10-29 22:40:04,113 - INFO - Loaded model at 46
+2022-10-29 22:40:47,844 - INFO - Loaded model at 47
+2022-10-29 22:41:31,569 - INFO - Loaded model at 48
+2022-10-29 22:42:15,312 - INFO - Loaded model at 49
+2022-10-29 22:42:59,050 - INFO - Loaded model at 50
+2022-10-29 22:43:42,795 - INFO - Loaded model at 51
+2022-10-29 22:44:26,531 - INFO - Loaded model at 52
+2022-10-29 22:45:10,259 - INFO - Loaded model at 53
+2022-10-29 22:45:54,001 - INFO - Loaded model at 54
+y_true.size =  torch.Size([17169408])
+y_pred.size =  torch.Size([17169408, 45])
+MAE =  tensor(3.1661, device='cuda:0')
+RMSE =  tensor(6.3597, device='cuda:0')
+intelval =  tensor(9.0772, device='cuda:0')
+mis =  tensor(10.8261, device='cuda:0')
